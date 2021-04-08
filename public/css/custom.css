@@ -1,0 +1,470 @@
+body {
+    background-color: white;
+    padding-top: 4.5rem;
+
+    font-family: "Spartan", sans-serif;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.home-banner {
+    padding: 90px 0;
+}
+
+.home-banner:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/Background-Cabezote-blue.jpg");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.centerBlock {
+    display: table;
+    margin: auto;
+}
+
+.custom-button {
+    border-color: #fff;
+    border-width: 2px;
+    width: 12rem;
+    height: 12rem;
+}
+
+.footer {
+    background-color: #073865 !important;
+}
+
+.float {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    z-index: 2;
+}
+
+.my-float {
+    margin-top: 15px;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 38px;
+}
+
+.custom-font-size {
+    font-size: 1.1rem;
+}
+
+.custom-font-size-cop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.second-banner {
+    color: rgb(230, 46, 45);
+}
+
+.carousel-nav-icon {
+    height: 48px;
+    width: 48px;
+}
+.carousel-item .col,
+.carousel-item .col-sm,
+.carousel-item .col-md {
+    margin: 8px;
+    height: 140px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.lending-category {
+    background: #f0f0f0;
+    display: block;
+    padding: 25% 5px;
+    border-radius: 20px;
+    height: 9rem;
+}
+
+.custom-back-color {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+}
+
+.content-card {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.custom-icon-size {
+    font-size: xxx-large;
+}
+
+.custom-h2 {
+    text-shadow: 1px 1px 2px black;
+}
+
+.third-banner {
+    color: rgb(245, 211, 1);
+}
+
+.fixed-banner {
+    background: url("../images/project/Background-Porque.jpg");
+    background-attachment: fixed;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-gradient {
+    background-image: url("../images/project/Background-Slides.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-join-community {
+    background-image: url("../images/project/Background-Comunidades.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.custom-image {
+    border-radius: 20px;
+}
+
+.carousel-item.active {
+    display: block;
+}
+
+.custom-svg {
+    fill: #3368b0;
+}
+
+.custom-svg-white {
+    fill: #fff;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: rgb(59, 89, 152);
+    box-shadow: 0 1px 2px 1px #ddd;
+}
+
+.landingbanner-block {
+    background-image: url("../images/project/landing-banner.jpg");
+    background-size: cover;
+    background-position: left top;
+    background-repeat: repeat;
+}
+
+.landingbanner-block {
+    padding: 13.5rem 0;
+    height: 640px;
+    min-height: 640px;
+}
+
+.landingbanner-block .bg {
+    background: rgba(247, 245, 245, 0.52);
+}
+
+.text-24 {
+    font-size: 24px;
+}
+
+.animation-img {
+    animation-name: gracefulimage;
+    animation-duration: 0.3s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+}
+
+.text-18 {
+    font-size: 16px;
+}
+
+.custom-invalid-feedback {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 80%;
+    color: #e3342f;
+}
+
+.ellipsis {
+    display: -webkit-box;
+    height: 64px;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.custom-card-footer {
+    background-color: white;
+}
+
+.pagination {
+    justify-content: center;
+}
+
+.text-blackc {
+    font-size: 22px;
+}
+
+.cutom-button-epayco {
+    width: 100%;
+}
+
+.navbar .notification {
+    position: absolute;
+    top: 0px;
+    border: 1px solid #fff;
+    right: 0px;
+    font-size: 8px;
+    background: #f44336;
+    color: #ffffff;
+    min-width: 17px;
+    padding: 0px 5px;
+    height: 17px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 17px;
+    display: block;
+}
+
+.custom-link {
+    position: relative;
+    padding: 10px 15px;
+    font-size: 18px !important;
+    border-radius: 3px;
+    line-height: 20px;
+    margin-left: 5px;
+}
+
+.control-label:after {
+    content: "*";
+    color: red;
+}
+
+.bg-criteries {
+    background-color: #ffef9a !important;
+}
+
+.card-warning {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(245, 211, 0);
+    border-radius: 0.25rem;
+}
+
+@media (max-width: 576px) {
+    .cust-d-sm-none {
+        display: none !important;
+    }
+
+    .d-sm-inline {
+        display: inline !important;
+    }
+
+    .d-sm-inline-block {
+        display: inline-block !important;
+    }
+
+    .d-sm-block {
+        display: block !important;
+    }
+
+    .d-sm-table {
+        display: table !important;
+    }
+
+    .d-sm-table-row {
+        display: table-row !important;
+    }
+
+    .d-sm-table-cell {
+        display: table-cell !important;
+    }
+
+    .d-sm-flex {
+        display: flex !important;
+    }
+
+    .d-sm-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .cust-d-md-none {
+        display: none !important;
+    }
+
+    .d-md-inline {
+        display: inline !important;
+    }
+
+    .d-md-inline-block {
+        display: inline-block !important;
+    }
+
+    .d-md-block {
+        display: block !important;
+    }
+
+    .d-md-table {
+        display: table !important;
+    }
+
+    .d-md-table-row {
+        display: table-row !important;
+    }
+
+    .d-md-table-cell {
+        display: table-cell !important;
+    }
+
+    .d-md-flex {
+        display: flex !important;
+    }
+
+    .d-md-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: 992px) {
+    .cust-d-lg-none {
+        display: none !important;
+    }
+
+    .d-lg-inline {
+        display: inline !important;
+    }
+
+    .d-lg-inline-block {
+        display: inline-block !important;
+    }
+
+    .d-lg-block {
+        display: block !important;
+    }
+
+    .d-lg-table {
+        display: table !important;
+    }
+
+    .d-lg-table-row {
+        display: table-row !important;
+    }
+
+    .d-lg-table-cell {
+        display: table-cell !important;
+    }
+
+    .d-lg-flex {
+        display: flex !important;
+    }
+
+    .d-lg-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .d-xl-none {
+        display: none !important;
+    }
+
+    .d-xl-inline {
+        display: inline !important;
+    }
+
+    .d-xl-inline-block {
+        display: inline-block !important;
+    }
+
+    .d-xl-block {
+        display: block !important;
+    }
+
+    .d-xl-table {
+        display: table !important;
+    }
+
+    .d-xl-table-row {
+        display: table-row !important;
+    }
+
+    .d-xl-table-cell {
+        display: table-cell !important;
+    }
+
+    .d-xl-flex {
+        display: flex !important;
+    }
+
+    .d-xl-inline-flex {
+        display: inline-flex !important;
+    }
+}
+
+.text-gray-300 {
+    color: #dddfeb!important;
+}
+
+.text-gray-800 {
+    color: #5a5c69!important;
+}
+
+.text-xs {
+    font-size: .7rem;
+}
+
+.border-left-primary {
+    border-left: .25rem solid #4e73df!important;
+}
+
+.border-left-success {
+    border-left: .25rem solid #1cc88a!important;
+}
+
+.border-left-info {
+    border-left: .25rem solid #36b9cc!important;
+}
+
+.border-left-warning {
+    border-left: .25rem solid #f6c23e!important;
+}
+
+.text-card-description{
+    font-size: 10px;
+}
+
+.text-card-definition{
+    font-size: 12px;
+}
