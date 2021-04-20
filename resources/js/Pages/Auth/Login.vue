@@ -6,10 +6,7 @@
         <jet-authentication-card>
           <div class="card-body">
             <form @submit.prevent="submit">
-              <h2 class="text-center mb-3">init on reactivaccion</h2>
-              <button class="btn btn-primary btn-lg btn-facebook btn-block">
-                <p class="d-inline">login with facebook</p>
-              </button>
+              <h2 class="text-center mb-3">init on serviso</h2>
               <hr class="mt-4" />
               <h4 class="text-center mb-4">or login with email</h4>
 
@@ -87,11 +84,6 @@
                     </inertia-link>
                   </div>
                 </div>
-              </div>
-              <div class="mt-2">
-                <inertia-link :href="route('register')">
-                  Register me
-                </inertia-link>
               </div>
             </form>
           </div>

@@ -4,12 +4,12 @@
   >
     <div class="container">
       <inertia-link class="navbar-brand mt-2 mb-3" :href="route('landing')">
-        <img
+        <!-- <img
           :src="asset('images/logo.png')"
           class="d-block"
           height="30"
           alt="Reactivacción"
-        />
+        /> -->
       </inertia-link>
 
       <button
@@ -29,11 +29,6 @@
           <li class="nav-item">
             <inertia-link class="nav-link" :href="route('login')"
               >Login</inertia-link
-            >
-          </li>
-          <li class="nav-item">
-            <inertia-link class="nav-link" :href="route('register')"
-              >Register</inertia-link
             >
           </li>
         </ul>

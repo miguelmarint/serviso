@@ -7,10 +7,7 @@
           <div class="card-body">
             <!-- <jet-validation-errors class="mb-3" /> -->
             <form @submit.prevent="submit">
-              <h2 class="text-center mb-3">Register on reactivaccion</h2>
-              <button class="btn btn-primary btn-lg btn-facebook btn-block">
-                <p class="d-inline">login with facebook</p>
-              </button>
+              <h2 class="text-center mb-3">Register on serviso</h2>
               <hr class="mt-4" />
               <h4 class="text-center mb-4">or register with email</h4>
 
