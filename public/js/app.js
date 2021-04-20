@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 const asset = (path) => {
     // default to MIX_ASSET_URL
-    let prefix = "http://reactiva.test/"
+    let prefix = "http://serviso.test"
 
     if (!prefix) {
         // fallback to determining ASSET_URL from meta tag
