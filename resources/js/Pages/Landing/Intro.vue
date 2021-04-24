@@ -10,8 +10,12 @@
             We provide<br /><span>solutions</span><br />for your business!
           </h2>
           <div>
-            <button type="button" class="btn btn-primary mr-4">Get Started</button>
-            <button type="button" class="btn btn-outline-primary mr-4">Our Services</button>
+            <button type="button" class="btn btn-primary mr-4">
+              Get Started
+            </button>
+            <button type="button" class="btn btn-outline-primary mr-4">
+              Our Services
+            </button>
           </div>
         </div>
       </div>

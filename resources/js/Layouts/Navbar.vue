@@ -36,10 +36,13 @@
             <inertia-link class="nav-link" href="#">Services</inertia-link>
           </li>
           <li class="nav-item">
+            <inertia-link class="nav-link" href="#">Why us</inertia-link>
+          </li>
+          <li class="nav-item">
             <inertia-link class="nav-link" href="#">Portfolio</inertia-link>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Contact ud</inertia-link>
+            <inertia-link class="nav-link" href="#">Contact us</inertia-link>
           </li>
           <li class="nav-item">
             <inertia-link class="nav-link" :href="route('login')"
