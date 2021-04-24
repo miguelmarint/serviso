@@ -6,7 +6,7 @@
           <slot name="logo" />
         </div>
 
-        <div class="card shadow-sm px-3">
+        <div class="card bg-light shadow-sm px-3">
           <slot />
         </div>
       </div>

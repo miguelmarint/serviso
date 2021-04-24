@@ -27,19 +27,49 @@
         <!-- Right Side Of Navbar -->
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Home</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('intro')"
+              class="btn shadow-none nav-link"
+            >
+              Home
+            </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">About us</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('about')"
+              class="btn shadow-none nav-link"
+            >
+              About us
+            </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Services</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('services')"
+              class="btn shadow-none nav-link"
+            >
+              Services
+            </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Why us</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('why-us')"
+              class="btn shadow-none nav-link"
+            >
+              Why us
+            </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Portfolio</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('portfolio')"
+              class="btn shadow-none nav-link"
+            >
+              Portfolio
+            </button>
           </li>
           <li class="nav-item">
             <inertia-link class="nav-link" href="#">Contact us</inertia-link>
@@ -56,7 +86,20 @@
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollMeTo(refName) {
+      var element = document.getElementById(`${refName}`);
+      var top = element.offsetTop;
+
+      window.scrollTo({
+        top: top,
+        left: 0,
+        behavior: "smooth",
+      });
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -66,7 +109,8 @@ export default {};
   max-height: 26px;
 }
 
-.navbar-nav .nav-item a {
+.navbar-nav .nav-item a,
+.navbar-nav .nav-item button {
   display: block;
   position: relative;
   color: #004289;

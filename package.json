@@ -34,6 +34,8 @@
         "vue-loader": "^16.1.2"
     },
     "dependencies": {
-        "@codinglabs/laravel-asset": "^1.0.1"
+        "@codinglabs/laravel-asset": "^1.0.1",
+        "aos": "^3.0.0-beta.6",
+        "@fortawesome/fontawesome-free": "^5.15.3"
     }
 }

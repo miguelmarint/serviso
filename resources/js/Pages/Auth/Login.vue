@@ -1,14 +1,13 @@
 <template>
   <div>
     <Navbar />
-    <main id="page-container">
+    <main class="my-5" id="page-container">
       <div id="content-wrap">
         <jet-authentication-card>
           <div class="card-body">
             <form @submit.prevent="submit">
               <h2 class="text-center mb-3">init on serviso</h2>
-              <hr class="mt-4" />
-              <h4 class="text-center mb-4">or login with email</h4>
+              <hr />
 
               <div class="form-group row">
                 <div class="col-md-12">
@@ -102,7 +101,7 @@ export default {
   components: {
     JetAuthenticationCard,
     JetCheckbox,
-    Navbar
+    Navbar,
   },
   props: {
     canResetPassword: Boolean,

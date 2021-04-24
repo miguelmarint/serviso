@@ -17,6 +17,6 @@ import Services from "./Services";
 import WhyUs from "./WhyUs";
 import Portfolio from "./Portfolio";
 export default {
-  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio},
+  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio },
 };
 </script>

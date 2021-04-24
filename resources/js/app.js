@@ -5,10 +5,13 @@ import { createApp, h } from 'vue';
 import { App as InertiaApp, plugin as InertiaPlugin } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import { asset } from '@codinglabs/laravel-asset';
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 const el = document.getElementById('app');
 
-createApp({
+const app = createApp({
     render: () =>
         h(InertiaApp, {
             initialPage: JSON.parse(el.dataset.page),
@@ -16,7 +19,7 @@ createApp({
         }),
 })
     .mixin({ methods: { route, asset: asset } })
-    .use(InertiaPlugin)
-    .mount(el);
+    .use(InertiaPlugin);
+app.mount('#app');
 
 InertiaProgress.init({ color: '#4B5563' });

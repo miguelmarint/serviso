@@ -15,6 +15,12 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+    <style>
+        body{
+            padding-top: 3.5rem;
+            background: #fff;
+        }
+    </style>
 
     <!-- Scripts -->
     @routes
