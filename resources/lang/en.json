@@ -1,3 +1,25 @@
 {
-    "nav_home": "Home"
+    "nav": {
+        "home": "Home",
+        "about": "About us",
+        "services": "Services",
+        "why": "Why us?",
+        "portfolio": "Portfolio",
+        "contact": "Contact us",
+        "login": "Login",
+        "dashboard": "Dashboard",
+        "profile": "Profile",
+        "logout": "Log out",
+        "lang": "Lang"
+    },
+    "lang": {
+        "spanish": "Spanish",
+        "english": "English"
+    },
+    "sidebar": {
+        "profile": "Profile",
+        "home": "Home",
+        "personalization": "Personalization",
+        "presentation": "Página de presentación"
+    }
 }

@@ -1,13 +1,16 @@
 module.exports = {
     methods: {
         __(key, replace = {}) {
-            var translation = this.$page.props.language[key]
-                ? this.$page.props.language[key]
-                : key
-
-            Object.keys(replace).forEach(function (key) {
-                translation = translation.replace(':' + key, replace[key])
-            });
+            let split = key.split(".");
+            if (split.length > 1) {
+                var translation = this.$page.props.language[split[0]][split[1]]
+                    ? this.$page.props.language[split[0]][split[1]]
+                    : key;
+            } else {
+                var translation = this.$page.props.language[key]
+                    ? this.$page.props.language[key]
+                    : key
+            }
 
             return translation
         },

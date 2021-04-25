@@ -33,7 +33,7 @@
               @click="scrollMeTo('intro')"
               class="btn shadow-none nav-link"
             >
-              {{ __("nav_home") }}
+              {{ __("nav.home") }}
             </button>
           </li>
           <li class="nav-item">
@@ -42,7 +42,7 @@
               @click="scrollMeTo('about')"
               class="btn shadow-none nav-link"
             >
-              About us
+              {{ __("nav.about") }}
             </button>
           </li>
           <li class="nav-item">
@@ -51,7 +51,7 @@
               @click="scrollMeTo('services')"
               class="btn shadow-none nav-link"
             >
-              Services
+              {{ __("nav.services") }}
             </button>
           </li>
           <li class="nav-item">
@@ -60,7 +60,7 @@
               @click="scrollMeTo('why-us')"
               class="btn shadow-none nav-link"
             >
-              Why us
+              {{ __("nav.why") }}
             </button>
           </li>
           <li class="nav-item">
@@ -69,21 +69,21 @@
               @click="scrollMeTo('portfolio')"
               class="btn shadow-none nav-link"
             >
-              Portfolio
+              {{ __("nav.portfolio") }}
             </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">Contact us</inertia-link>
+            <inertia-link class="nav-link" href="#">{{
+              __("nav.contact")
+            }}</inertia-link>
           </li>
 
-          <li class="nav-item">
-            <language-selector></language-selector>
-          </li>
+          <language-selector></language-selector>
 
           <li v-if="!$page.props.user" class="nav-item">
-            <inertia-link class="nav-link" :href="route('login')"
-              >Login</inertia-link
-            >
+            <inertia-link class="nav-link" :href="route('login')">{{
+              __("nav.login")
+            }}</inertia-link>
           </li>
 
           <li v-if="$page.props.user" class="nav-item dropdown">
@@ -95,7 +95,6 @@
               data-toggle="dropdown"
               aria-haspopup="true"
               aria-expanded="false"
-              v-pre
             >
               <i class="fas fa-user"></i>
             </a>
@@ -109,16 +108,18 @@
                 class="dropdown-item"
                 :href="route('dashboard')"
               >
-                Dashboard
+                {{ __("nav.dashboard") }}
               </jet-dropdown-link>
               <jet-dropdown-link
                 class="dropdown-item"
                 :href="route('profile.show')"
               >
-                Profile
+                {{ __("nav.profile") }}
               </jet-dropdown-link>
               <form @submit.prevent="logout">
-                <jet-dropdown-link as="button"> Log out </jet-dropdown-link>
+                <jet-dropdown-link as="button">{{
+                  __("nav.logout")
+                }}</jet-dropdown-link>
               </form>
             </div>
           </li>

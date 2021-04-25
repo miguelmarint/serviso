@@ -7,7 +7,7 @@
           <inertia-link
             class="nav-link p-0 active exact-active"
             :href="route('profile.show')"
-            >Perfil</inertia-link
+            >{{ __("sidebar.profile") }}</inertia-link
           >
         </div>
 
@@ -19,10 +19,48 @@
           >
             <div class="d-flex w-100 justify-content-start align-items-center">
               <i class="fas fa-home mr-2"></i>
-              <span class="menu-collapsed font-weight-bold">Inicio</span>
+              <span class="menu-collapsed font-weight-bold">{{
+                __("sidebar.home")
+              }}</span>
             </div>
           </inertia-link>
-          <div class="accordion" id="sidebarAcordion"></div>
+          <div class="accordion" id="sidebarAcordion">
+            <!-- Personalization -->
+            <a
+              href="#submenu1"
+              data-toggle="collapse"
+              aria-expanded="false"
+              class="bg-white list-group-item list-group-item-action flex-column align-items-start"
+            >
+              <div
+                class="d-flex w-100 justify-content-start align-items-center"
+              >
+                <span class="fas fa-paint-brush fa-fw mr-2"></span>
+                <span class="menu-collapsed font-weight-bold">{{
+                  __("sidebar.personalization")
+                }}</span>
+              </div>
+            </a>
+            <div
+              id="submenu1"
+              class="collapse sidebar-submenu"
+              data-parent="#sidebarAcordion"
+            >
+              <inertia-link
+                href="#"
+                class="list-group-item list-group-item-action"
+              >
+                <div
+                  class="ml-2 d-flex w-100 justify-content-start align-items-center"
+                >
+                  <i class="fas fa-house-user mr-2"></i>
+                  <span class="menu-collapsed">{{
+                    __("sidebar.presentation")
+                  }}</span>
+                </div>
+              </inertia-link>
+            </div>
+          </div>
         </div>
       </div>
 
