@@ -17162,8 +17162,10 @@ __webpack_require__.r(__webpack_exports__);
       var _this = this;
 
       if (this.route().current() !== "landing") {
-        this.$inertia.get(this.route("landing")).then(function () {
-          _this.doScroll(refName);
+        this.$inertia.get(this.route("landing"), "", {
+          onFinish: function onFinish() {
+            return _this.doScroll(refName);
+          }
         });
       } else {
         this.doScroll(refName);

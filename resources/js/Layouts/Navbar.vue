@@ -133,8 +133,8 @@ export default {
   methods: {
     scrollMeTo(refName) {
       if (this.route().current() !== "landing") {
-        this.$inertia.get(this.route("landing")).then(() => {
-          this.doScroll(refName);
+        this.$inertia.get(this.route("landing"), "", {
+          onFinish: () => this.doScroll(refName),
         });
       } else {
         this.doScroll(refName);
