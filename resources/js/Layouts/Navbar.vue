@@ -33,7 +33,7 @@
               @click="scrollMeTo('intro')"
               class="btn shadow-none nav-link"
             >
-              Home
+              {{ __("nav_home") }}
             </button>
           </li>
           <li class="nav-item">
@@ -74,6 +74,10 @@
           </li>
           <li class="nav-item">
             <inertia-link class="nav-link" href="#">Contact us</inertia-link>
+          </li>
+
+          <li class="nav-item">
+            <language-selector></language-selector>
           </li>
 
           <li v-if="!$page.props.user" class="nav-item">
@@ -126,9 +130,11 @@
 
 <script>
 import JetDropdownLink from "@/Jetstream/DropdownLink";
+import LanguageSelector from "@/Shared/LanguageSelector";
 export default {
   components: {
     JetDropdownLink,
+    LanguageSelector,
   },
   methods: {
     scrollMeTo(refName) {

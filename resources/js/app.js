@@ -20,6 +20,7 @@ const app = createApp({
 })
     .mixin({ methods: { route, asset: asset } })
     .use(InertiaPlugin);
+app.mixin(require('./base'));
 app.mount('#app');
 
 InertiaProgress.init({ color: '#4B5563' });
