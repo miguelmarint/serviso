@@ -20,3 +20,10 @@ export default {
   components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio },
 };
 </script>
+
+<style scoped>
+body {
+  padding-top: 3.5rem;
+  background: #fff;
+}
+</style>

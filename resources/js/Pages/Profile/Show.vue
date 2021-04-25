@@ -18,11 +18,11 @@
       <jet-section-border />
     </div>
 
-    <div v-if="$page.props.jetstream.canManageTwoFactorAuthentication">
+    <!-- <div v-if="$page.props.jetstream.canManageTwoFactorAuthentication">
       <two-factor-authentication-form />
 
       <jet-section-border />
-    </div>
+    </div> -->
 
     <logout-other-browser-sessions-form :sessions="sessions" />
 
