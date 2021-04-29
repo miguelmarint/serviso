@@ -7,7 +7,7 @@
       <inertia-link class="navbar-brand" :href="route('landing')">
         <img
           id="brand"
-          :src="asset('images/logo.png')"
+          :src="asset('images/logoservi.png')"
           class="img-fluid"
           alt="Serviso"
         />
@@ -166,8 +166,8 @@ export default {
 <style scoped>
 #brand {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: 3px 0;
+  max-height: 60px;
 }
 
 .navbar-nav .nav-item a,
