@@ -10,7 +10,9 @@
         "dashboard": "Portal",
         "profile": "Perfil",
         "logout": "Cerrar sesión",
-        "lang": "Idioma"
+        "lang": "Idioma",
+        "clients": "Clientes",
+        "team": "Equipo"
     },
     "lang": {
         "spanish": "Español",

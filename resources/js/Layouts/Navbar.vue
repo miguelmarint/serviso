@@ -63,19 +63,41 @@
               {{ __("nav.why") }}
             </button>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <button
               type="button"
               @click="scrollMeTo('portfolio')"
               class="btn shadow-none nav-link"
             >
               {{ __("nav.portfolio") }}
+            </button> 
+          </li> -->
+          <li class="nav-item">
+            <button
+              type="button"
+              @click="scrollMeTo('team')"
+              class="btn shadow-none nav-link"
+            >
+              {{ __("nav.team") }}
             </button>
           </li>
           <li class="nav-item">
-            <inertia-link class="nav-link" href="#">{{
-              __("nav.contact")
-            }}</inertia-link>
+            <button
+              type="button"
+              @click="scrollMeTo('clients')"
+              class="btn shadow-none nav-link"
+            >
+              {{ __("nav.clients") }}
+            </button>
+          </li>
+          <li class="nav-item">
+            <button
+              type="button"
+              @click="scrollMeTo('contact')"
+              class="btn shadow-none nav-link"
+            >
+              {{ __("nav.contact") }}
+            </button>
           </li>
 
           <language-selector></language-selector>
@@ -151,7 +173,7 @@ export default {
       var element = document.getElementById(`${refName}`);
       var top = element.offsetTop;
       window.scrollTo({
-        top: top,
+        top: top - 90,
         left: 0,
         behavior: "smooth",
       });

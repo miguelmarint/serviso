@@ -10,7 +10,9 @@
         "dashboard": "Dashboard",
         "profile": "Profile",
         "logout": "Log out",
-        "lang": "Lang"
+        "lang": "Lang",
+        "clients": "Clients",
+        "team": "Team"
     },
     "lang": {
         "spanish": "Spanish",
