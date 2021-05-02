@@ -7,14 +7,11 @@
         </div>
         <div class="intro-info">
           <h2>
-            We provide<br /><span>solutions</span><br />for your business!
+            Servicios y Asesorías<br /><span>Integrales en Salud</span><br />Ocupacional S.A.S
           </h2>
           <div>
             <button type="button" class="btn btn-primary mr-4">
-              Get Started
-            </button>
-            <button type="button" class="btn btn-outline-primary mr-4">
-              Our Services
+              Noticias
             </button>
           </div>
         </div>
@@ -51,5 +48,11 @@ export default {};
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
+  font-family: 'Arial Narrow';
+
+}
+#intro .intro-info button{
+  font-family: 'Arial Narrow';
+  font-size: 20px;
 }
 </style>

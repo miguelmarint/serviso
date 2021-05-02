@@ -3,46 +3,57 @@
     <section id="about">
       <div class="container">
         <header class="section-header">
-          <h3>About Us</h3>
+          <h3>Sobre nosotros</h3>
           <p>
-            ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua.
+            Ips especializada en servicios de seguridad y salud en el trabajo.
           </p>
         </header>
         <div data-aos="fade-up">
           <div class="row about-container">
             <div class="col-lg-6 content order-lg-1 order-2">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Ubicada en la ciudad de Manizales, cubriendo eje cafetero con 23
+                años en el mercado, nuestros clientes empresas privadas, sector
+                publico, ARL y EPS, prestamos todos los servicios relacionados
+                con seguridad y salud en el trabajo excepto higiene industrial.
               </p>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="fas fa-shopping-bag"></i></div>
-                <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
+                <h4 class="title"><a href="">Nuestra misión:</a></h4>
                 <p class="description">
-                  Et harum quidem rerum facilis est et expedita distinctio. Nam
-                  libero tempore, cum soluta nobis est eligendi
+                  Serviso SAS IPS es una empresa privada especializada en la
+                  prestación de servicios de salud ocupacional que diseña,
+                  aplica y evalúa programas para el cuidado de los trabajadores
+                  en su ambiente laboral , con el apoyo de profesionales
+                  comprometidos, y una red de instituciones aliadas que
+                  garantizan seguridad y satisfacción al empleador, empleado y
+                  sociedad.
                 </p>
               </div>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="far fa-image"></i></div>
-                <h4 class="title"><a href="">Magni Dolores</a></h4>
+                <h4 class="title"><a href="">Nuestra visión:</a></h4>
                 <p class="description">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum
+                  En el año 2022 continuaremos siendo una de las propuestas más
+                  completas y confiables para la implementación del sistema de
+                  gestión en seguridad y salud en el trabajo de empresas
+                  públicas y privadas del eje cafetero desde todos sus aspectos
+                  de Salud y seguridad, y nos consolidaremos como la primera
+                  alternativa para servicios de Medicina Laboral para empresas y
+                  entidades de seguridad social; logrando satisfacer a nuestros
+                  usuarios con los mayores estándares de calidad, garantizando
+                  rentabilidad y sostenibilidad social y financiera.
                 </p>
               </div>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="far fa-chart-bar"></i></div>
-                <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                <h4 class="title"><a href="">Nuestros valores:</a></h4>
                 <p class="description">
-                  Minim veniam, quis nostrud exercitation ullamco laboris nisi
-                  ut aliquip ex ea commodo consequat tarad limino ata
+                  Los valores que orientan nuestro trabajo son: Respeto,
+                  calidad, innovación, oportunidad, compromiso, imparcialidad.
                 </p>
               </div>
             </div>
@@ -56,7 +67,6 @@
             </div>
           </div>
         </div>
-
         <div data-aos="fade-up">
           <div class="row about-extra">
             <div class="col-lg-6 wow">
@@ -134,18 +144,20 @@ export default {};
   padding: 60px 0;
 }
 #about .section-header h3 {
-  font-size: 36px;
+  font-size: 40px;
   color: #283d50;
   text-align: center;
   font-weight: 500;
   position: relative;
+  font-family: "Arial Narrow";
 }
 #about .section-header p {
   text-align: center;
   margin: auto;
-  font-size: 15px;
+  font-size: 30px;
   padding-bottom: 60px;
   color: #556877;
+  font-family: "Arial Narrow";
   width: 50%;
 }
 #about .row {
@@ -159,6 +171,9 @@ export default {};
 }
 #about .about-container p {
   line-height: 26px;
+  font-size: 19px;
+  font-family: "Arial Narrow";
+  text-align: justify;
 }
 #about .about-container .icon-box {
   background: #fff;
@@ -190,7 +205,8 @@ export default {};
   margin-left: 80px;
   font-weight: 600;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 21px;
+  font-family: "Arial Narrow";
 }
 #about .about-container .icon-box .title a {
   color: #283d50;
@@ -198,7 +214,9 @@ export default {};
 #about .about-container .icon-box .description {
   margin-left: 80px;
   line-height: 24px;
-  font-size: 14px;
+  font-size: 19px;
+  font-family: "Arial Narrow";
+  text-align: justify;
 }
 #about .about-container .background {
   margin: 20px 0;

@@ -177,8 +177,8 @@ export default {
   color: #004289;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-size: 18px;
+  font-family: 'Arial Narrow';
+  font-weight: 700;
 }
 </style>
