@@ -1,11 +1,11 @@
 {
     "nav": {
         "home": "Inicio",
-        "about": "Sobre nosotros",
+        "about": "Nosotros",
         "services": "Servicios",
-        "why": "¿Por qué nosotros?",
+        "why": "Noticias",
         "portfolio": "Catalogo",
-        "contact": "Contacta con nosotros",
+        "contact": "Contáctanos",
         "login": "Iniciar",
         "dashboard": "Portal",
         "profile": "Perfil",
@@ -22,6 +22,10 @@
         "profile": "Perfil",
         "home": "Inicio",
         "personalization": "Personalización",
-        "presentation": "Presentation page"
+        "presentation": "Presentation page",
+        "scoops": "Noticias"
+    },
+    "scoops": {
+        "title": "Gestión de noticias"
     }
 }

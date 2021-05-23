@@ -47,16 +47,21 @@
               data-parent="#sidebarAcordion"
             >
               <inertia-link
-                href="#"
+                :href="route('scoops.index')"
                 class="list-group-item list-group-item-action"
+                :class="{
+                  active:
+                    isActive('scoops.index') ||
+                    isActive('scoops.create') ||
+                    isActive('scoops.edit') ||
+                    isActive('scoops.show'),
+                }"
               >
                 <div
                   class="ml-2 d-flex w-100 justify-content-start align-items-center"
                 >
                   <i class="fas fa-house-user mr-2"></i>
-                  <span class="menu-collapsed">{{
-                    __("sidebar.presentation")
-                  }}</span>
+                  <span class="menu-collapsed">{{ __("sidebar.scoops") }}</span>
                 </div>
               </inertia-link>
             </div>

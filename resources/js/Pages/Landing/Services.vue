@@ -9,7 +9,29 @@
 
         <div data-aos="fade-up">
           <div class="row">
-            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+            <div class="col-xl-3 col-md-6 mb-4">
+              <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                  <div class="row no-gutters align-items-center">
+                    <div class="col mr-2">
+                      <div
+                        class="text-xs font-weight-bold text-primary text-uppercase mb-1"
+                      >
+                        Dinero recaudado
+                      </div>
+                      <div class="h5 mb-0 font-weight-bold text-gray-800">
+                        COP
+                      </div>
+                    </div>
+                    <div class="col-auto">
+                      <i class="fas fa-donate fa-2x text-gray-300"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
               <div class="box">
                 <div class="icon">
                   <i class="fas fa-prescription-bottle-alt"></i>
@@ -40,7 +62,7 @@
                   juntas.
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
 
@@ -237,7 +259,7 @@ export default {};
   text-align: center;
   font-weight: 500;
   position: relative;
-  font-family: 'Arial Narrow';
+  font-family: "Arial Narrow";
 }
 #services .section-header p {
   text-align: center;
@@ -246,8 +268,7 @@ export default {};
   padding-bottom: 60px;
   color: #556877;
   width: 50%;
-  font-family: 'Arial Narrow';
-  
+  font-family: "Arial Narrow";
 }
 
 #services .row {
@@ -281,7 +302,7 @@ export default {};
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 21px;
-  font-family: 'Arial Narrow';
+  font-family: "Arial Narrow";
 }
 #services .title a {
   color: #073d77;
@@ -291,10 +312,34 @@ export default {};
   margin-left: 40px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: 'Arial Narrow';
+  font-family: "Arial Narrow";
   text-align: justify;
 }
 .section-bg {
   background: #ecf5ff;
+}
+
+.border-left-primary {
+  border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+  border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-info {
+  border-left: 0.25rem solid #36b9cc !important;
+}
+
+.border-left-warning {
+  border-left: 0.25rem solid #f6c23e !important;
+}
+
+.text-card-description {
+  font-size: 10px;
+}
+
+.text-card-definition {
+  font-size: 12px;
 }
 </style>

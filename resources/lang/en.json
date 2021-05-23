@@ -22,6 +22,10 @@
         "profile": "Profile",
         "home": "Home",
         "personalization": "Personalization",
-        "presentation": "Página de presentación"
+        "presentation": "Página de presentación",
+        "scoops": "News"
+    },
+    "scoops": {
+        "title": "Admin news"
     }
 }
