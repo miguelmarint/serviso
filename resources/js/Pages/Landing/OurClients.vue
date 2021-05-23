@@ -3,7 +3,7 @@
     <section id="clients" class="section-bg">
       <div class="container">
         <div class="section-header">
-          <h3>Our CLients</h3>
+          <h3>Nuestros clientes</h3>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque dere santome nida.

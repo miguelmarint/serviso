@@ -3,7 +3,7 @@
     <section id="why-us" class="wow">
       <div class="container">
         <header class="section-header">
-          <h3>Why choose us?</h3>
+          <h3>Noticias</h3>
           <p>
             Laudem latine persequeris id sed, ex fabulas delectus quo. No vel
             partiendo abhorreant vituperatoribus.

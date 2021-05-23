@@ -12,7 +12,7 @@
             <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
               <div class="box">
                 <div class="icon">
-                  <i class="ion-ios-analytics-outline"></i>
+                  <i class="fas fa-prescription-bottle-alt"></i>
                 </div>
                 <h4 class="title">
                   <a href="">Medicina preventiva y de trabajo: </a>
@@ -29,7 +29,7 @@
             <div class="col-md-6 col-lg-5 wow bounceInUp">
               <div class="box">
                 <div class="icon">
-                  <i class="ion-ios-bookmarks-outline"></i>
+                  <i class="fas fa-stethoscope"></i>
                 </div>
                 <h4 class="title"><a href="">Medicina laboral:</a></h4>
                 <p class="description">
@@ -49,7 +49,7 @@
             <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
               <div class="box">
                 <div class="icon">
-                  <i class="ion-ios-paper-outline"></i>
+                  <i class="fas fa-virus"></i>
                 </div>
                 <h4 class="title">
                   <a href="">Sistemas de vigilancia epidemiológica:</a>
@@ -64,7 +64,7 @@
             <div class="col-md-6 col-lg-5 wow bounceInUp">
               <div class="box">
                 <div class="icon">
-                  <i class="ion-ios-speedometer-outline"></i>
+                  <i class="fas fa-head-side-mask"></i>
                 </div>
                 <h4 class="title"><a href="">Covid 19</a></h4>
                 <p class="description">
@@ -89,7 +89,7 @@
               <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-world-outline"></i>
+                    <i class="fas fa-exclamation"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Matriz de identificación de peligros:</a>
@@ -104,7 +104,7 @@
               <div class="col-md-6 col-lg-5 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-clock-outline"></i>
+                    <i class="fas fa-exclamation-triangle"></i>
                   </div>
                   <h4 class="title"><a href="">Tareas de alto riesgo:</a></h4>
                   <p class="description">
@@ -120,7 +120,7 @@
               <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-world-outline"></i>
+                    <i class="fas fa-first-aid"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Plan de emergencias: </a>
@@ -134,7 +134,7 @@
               <div class="col-md-6 col-lg-5 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-clock-outline"></i>
+                    <i class="fab fa-accessible-icon"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Incidentes y accidentes de trabajo:</a>
@@ -157,7 +157,7 @@
               <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-world-outline"></i>
+                    <i class="fas fa-copy"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Diseño SGSST:</a>
@@ -171,7 +171,7 @@
               <div class="col-md-6 col-lg-5 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-clock-outline"></i>
+                    <i class="fas fa-shield-alt"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Autoevaluación del sistema:</a>
@@ -189,7 +189,7 @@
               <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-world-outline"></i>
+                    <i class="fas fa-hand-holding-medical"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Auditoria del sistema de gestión de SST: </a>
@@ -203,7 +203,7 @@
               <div class="col-md-6 col-lg-5 wow bounceInUp">
                 <div class="box">
                   <div class="icon">
-                    <i class="ion-ios-clock-outline"></i>
+                    <i class="fas fa-chalkboard-teacher"></i>
                   </div>
                   <h4 class="title">
                     <a href="">Capacitación y entrenamiento:</a>
@@ -233,7 +233,7 @@ export default {};
 
 #services .section-header h3 {
   font-size: 36px;
-  color: #283d50;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -268,11 +268,11 @@ export default {};
 }
 #services .icon {
   position: absolute;
-  left: -10px;
+  left: 0px;
   top: calc(50% - 32px);
 }
 #services .icon i {
-  font-size: 64px;
+  font-size: 50px;
   line-height: 1;
   transition: 0.5s;
 }
@@ -284,7 +284,7 @@ export default {};
   font-family: 'Arial Narrow';
 }
 #services .title a {
-  color: #111;
+  color: #073d77;
 }
 #services .description {
   font-size: 19px;

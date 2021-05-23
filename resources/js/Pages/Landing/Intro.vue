@@ -7,12 +7,11 @@
         </div>
         <div class="intro-info">
           <h2>
-            Servicios y Asesorías<br /><span>Integrales en Salud</span><br />Ocupacional S.A.S
+            Servicios y Asesorías<br /><span>Integrales en Salud</span
+            ><br />Ocupacional S.A.S
           </h2>
           <div>
-            <button type="button" class="btn btn-primary mr-4">
-              Noticias
-            </button>
+            <button type="button" class="btn btn-primary mr-4">Noticias</button>
           </div>
         </div>
       </div>
@@ -48,11 +47,11 @@ export default {};
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
-  font-family: 'Arial Narrow';
-
+  font-family: "Arial Narrow";
 }
-#intro .intro-info button{
-  font-family: 'Arial Narrow';
+#intro .intro-info button {
+  font-family: "Arial Narrow";
+  font-weight: 10px;
   font-size: 20px;
 }
 </style>

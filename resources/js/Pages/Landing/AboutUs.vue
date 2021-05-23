@@ -19,7 +19,7 @@
               </p>
 
               <div class="icon-box wow">
-                <div class="icon"><i class="fas fa-shopping-bag"></i></div>
+                <div class="icon"><i class="fas fa-user-md"></i></div>
                 <h4 class="title"><a href="">Nuestra misión:</a></h4>
                 <p class="description">
                   Serviso SAS IPS es una empresa privada especializada en la
@@ -33,27 +33,18 @@
               </div>
 
               <div class="icon-box wow">
-                <div class="icon"><i class="far fa-image"></i></div>
+                <div class="icon"><i class="fas fa-notes-medical"></i></div>
                 <h4 class="title"><a href="">Nuestra visión:</a></h4>
                 <p class="description">
                   En el año 2022 continuaremos siendo una de las propuestas más
                   completas y confiables para la implementación del sistema de
                   gestión en seguridad y salud en el trabajo de empresas
                   públicas y privadas del eje cafetero desde todos sus aspectos
-                  de Salud y seguridad, y nos consolidaremos como la primera
-                  alternativa para servicios de Medicina Laboral para empresas y
+                  de salud y seguridad, y nos consolidaremos como la primera
+                  alternativa para servicios de medicina laboral para empresas y
                   entidades de seguridad social; logrando satisfacer a nuestros
                   usuarios con los mayores estándares de calidad, garantizando
                   rentabilidad y sostenibilidad social y financiera.
-                </p>
-              </div>
-
-              <div class="icon-box wow">
-                <div class="icon"><i class="far fa-chart-bar"></i></div>
-                <h4 class="title"><a href="">Nuestros valores:</a></h4>
-                <p class="description">
-                  Los valores que orientan nuestro trabajo son: Respeto,
-                  calidad, innovación, oportunidad, compromiso, imparcialidad.
                 </p>
               </div>
             </div>
@@ -67,6 +58,8 @@
             </div>
           </div>
         </div>
+
+
         <div data-aos="fade-up">
           <div class="row about-extra">
             <div class="col-lg-6 wow">
@@ -77,25 +70,23 @@
               />
             </div>
             <div class="col-lg-6 wow pt-5 pt-lg-0">
-              <h4>
-                Voluptatem dignissimos provident quasi corporis voluptates sit
-                assumenda.
-              </h4>
-              <p>
-                Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati
-                possimus ea. Quas molestiae perspiciatis occaecati qui rerum.
-                Deleniti quod porro sed quisquam saepe. Numquam mollitia
-                recusandae non ad at et a.
-              </p>
-              <p>
-                Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti.
-                Odit qui asperiores ea corporis deserunt veritatis quidem
-                expedita perferendis. Qui rerum eligendi ex doloribus quia sit.
-                Porro rerum eum eum.
-              </p>
+              <div class="icon-box wow">
+                <div class="icon"><i class="fas fa-user-friendsr"></i></div>
+                <h4 class="title"><a href="">Nuestros valores:</a></h4>
+                <ul  class="description">
+                  <li>Respeto.</li>
+                  <li>Calidad.</li>
+                  <li>Innovación.</li>
+                  <li>Oportunidad.</li>
+                  <li>Compromiso.</li>
+                  <li>Imparcialidad.</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
+
+
         <div data-aos="fade-up">
           <div class="row about-extra">
             <div class="col-lg-6 wow order-1 order-lg-2">
@@ -145,7 +136,7 @@ export default {};
 }
 #about .section-header h3 {
   font-size: 40px;
-  color: #283d50;
+  color: #000000;
   text-align: center;
   font-weight: 500;
   position: relative;
@@ -191,11 +182,11 @@ export default {};
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #073d77;
   transition: all 0.3s ease-in-out;
 }
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #073d77;
   font-size: 24px;
 }
 #about .fa-shopping-bag:before {
@@ -209,7 +200,7 @@ export default {};
   font-family: "Arial Narrow";
 }
 #about .about-container .icon-box .title a {
-  color: #283d50;
+  color: #073d77;
 }
 #about .about-container .icon-box .description {
   margin-left: 80px;

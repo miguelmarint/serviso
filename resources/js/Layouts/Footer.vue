@@ -26,25 +26,25 @@
             </div>
 
             <div class="col-sm footer-contact">
-              <h4>Contact Us</h4>
+              <h4>Contáctanos</h4>
               <p>
-                A108 Adam Street <br />
-                New York, NY 535022<br />
-                United States <br />
-                <strong>Phone:</strong> +1 5589 55488 55<br />
-                <strong>Email:</strong> info@example.com<br />
+                Cra 24. #51-45 <br />
+                Edificio Clarabet de Versalles<br />
+                Manizales, Caldas, Colombia <br />
+                <strong>Teléfono:</strong>   8813741 – 3162200078 - 8901133<br />
+                <strong>Correo electrónico:</strong> serviso@gmail.com - serviso.citasmedicas@gmail.com<br />
               </p>
 
               <div class="social-links">
-                <a href="" class="twitter"><i class="fa fa-twitter"></i></a>
-                <a href="" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
+                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
                 <a href="" class="instagram"
-                  ><i class="fa fa-instagram"></i
+                  ><i class="fab fa-instagram"></i
                 ></a>
                 <a href="" class="google-plus"
-                  ><i class="fa fa-google-plus"></i
+                  ><i class="fab fa-google-plus-g"></i
                 ></a>
-                <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
 
@@ -60,13 +60,13 @@ export default {};
 </script>
 <style  scoped>
 #footer {
-    background: #00428a;
+    background:  #007bff;
     padding: 0 0 30px 0;
     color: #eee;
     font-size: 14px;
 }
 #footer .footer-top {
-    background: #004a99;
+    background: #073d77;
     padding: 60px 0 30px 0;
 }
 .row {
@@ -89,7 +89,7 @@ export default {};
     margin: 0 0 20px 0;
     padding: 2px 0 2px 0;
     line-height: 1;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Arial Narrow';
     color: #fff;
     font-weight: 400;
     letter-spacing: 3px;
@@ -99,7 +99,7 @@ export default {};
     font-size: 13px;
     line-height: 24px;
     margin-bottom: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Arial Narrow';
     color: #ecf5ff;
 }
 #footer .footer-top h4 {
