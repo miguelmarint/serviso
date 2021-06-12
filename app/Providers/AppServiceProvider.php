@@ -15,7 +15,7 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        Inertia::share('TINY_KEY', env('TINY_KEY'));
     }
 
     /**

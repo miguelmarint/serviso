@@ -81,34 +81,12 @@
                 </div>
               </div>
               <div class="form-group row">
-                <div class="col-md-12">
+                <div class="col-md-12 content">
                   <editor
-                    api-key="s1vb05ikexiw3kb44jvjl62keltdzogba25hzaz6wq30vbrh"
-                    :init="{
-                      height: 500,
-                      menubar: false,
-                      plugins: [
-                        'advlist autolink lists link image charmap print preview anchor',
-                        'searchreplace visualblocks code fullscreen',
-                        'insertdatetime media table paste code help wordcount',
-                      ],
-                      toolbar:
-                        'undo redo | formatselect | bold italic backcolor | \
-           alignleft aligncenter alignright alignjustify | \
-           bullist numlist outdent indent | removeformat | help',
-                    }"
+                    :api-key="$page.props.TINY_KEY"
+                    v-model="form.content"
+                    :init="init"
                   />
-                </div>
-              </div>
-              <div class="form-group row mb-0">
-                <div class="col-md-12">
-                  <button
-                    class="btn btn-primary btn-block"
-                    :class="{ 'text-white-50': form.processing }"
-                    :disabled="form.processing"
-                  >
-                    <p class="d-inline">Crear</p>
-                  </button>
                 </div>
               </div>
             </form>
@@ -116,6 +94,18 @@
         </div>
       </div>
     </app-layout>
+    <a
+      class="float btn btn-success rounded-pill float-right"
+      role="button"
+      data-toggle="tooltip"
+      data-placement="top"
+      title="Crear noticia"
+      @click="submit"
+      :class="{ 'text-white-50': form.processing }"
+      :disabled="form.processing"
+    >
+      <i class="fas fa-save my-float"></i>
+    </a>
   </div>
 </template>
 
@@ -129,7 +119,23 @@ export default {
         title: null,
         author: null,
         reference: null,
+        content: null,
       }),
+      init: {
+        height: 500,
+        menubar: true,
+        branding: false,
+        images_upload_url: "#",
+        automatic_uploads: false,
+        plugins: [
+          "advlist autolink lists link image charmap print preview anchor",
+          "searchreplace visualblocks code fullscreen",
+          "insertdatetime media table paste code help wordcount",
+          "code table quickbars media",
+        ],
+        toolbar:
+          "fontsizeselect | bold italic underline strikethrough removeformat subscript superscript | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote undo redo | fontselect | media",
+      },
     };
   },
   components: {
@@ -138,13 +144,14 @@ export default {
   },
   methods: {
     submit() {
-      this.form
-        .transform((data) => ({
-          ...data,
-        }))
-        .post(this.route("scoops.store"), {
-          onSuccess: () => {},
-        });
+      console.log(this.form.content);
+      // this.form
+      //   .transform((data) => ({
+      //     ...data,
+      //   }))
+      //   .post(this.route("scoops.store"), {
+      //     onSuccess: () => {},
+      //   });
     },
   },
   computed: {
@@ -160,4 +167,7 @@ export default {
 </script>
 
 <style scoped>
+.content textarea {
+  display: none;
+}
 </style>
