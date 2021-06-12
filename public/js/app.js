@@ -18253,10 +18253,11 @@ __webpack_require__.r(__webpack_exports__);
         height: 500,
         menubar: true,
         branding: false,
-        images_upload_url: "#",
-        automatic_uploads: false,
         plugins: ["advlist autolink lists link image charmap print preview anchor", "searchreplace visualblocks code fullscreen", "insertdatetime media table paste code help wordcount", "code table quickbars media"],
-        toolbar: "fontsizeselect | bold italic underline strikethrough removeformat subscript superscript | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote undo redo | fontselect | media"
+        toolbar: "fontsizeselect | bold italic underline strikethrough removeformat subscript superscript | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote undo redo | fontselect | media",
+        images_upload_handler: function images_upload_handler(blobInfo, success, failure) {
+          console.log(URL.createObjectURL(blobInfo)); // console.log(blobInfo.blob())
+        }
       }
     };
   },
