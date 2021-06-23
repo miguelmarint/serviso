@@ -16,7 +16,7 @@ class CreateScoopsTable extends Migration
         Schema::create('scoops', function (Blueprint $table) {
             $table->id();
             $table->string("title");
-            $table->text("content");
+            $table->text("content")->nullable();
             $table->string("author")->nullable();
             $table->string("reference")->nullable();
             $table->timestamps();

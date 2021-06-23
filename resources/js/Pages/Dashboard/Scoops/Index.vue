@@ -7,6 +7,21 @@
         </h3></template
       >
       <div>
+        <div
+          v-if="$page.props.alerts.success"
+          class="alert alert-success alert-dismissible fade show"
+          role="alert"
+        >
+          {{ $page.props.alerts.success }}
+          <button
+            type="button"
+            class="close"
+            data-dismiss="alert"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
         <div class="card bg-white rounded">
           <div class="card-body">
             <div class="table-responsive">
@@ -23,10 +38,16 @@
                   <tr v-for="scoop in scoops" :key="scoop.id">
                     <td>{{ scoop.id }}</td>
                     <td>{{ scoop.title }}</td>
-                    <td>{{ scoop.created_at }}</td>
+                    <td>{{ scoop.created }}</td>
                     <td>
                       <inertia-link
-                        class="btn btn-link d-inline p-0 mr-2 text-decoration-none"
+                        class="
+                          btn btn-link
+                          d-inline
+                          p-0
+                          mr-2
+                          text-decoration-none
+                        "
                         data-toggle="tooltip"
                         data-placement="top"
                         title="Editar"
@@ -37,7 +58,13 @@
                         </span>
                       </inertia-link>
                       <inertia-link
-                        class="btn btn-link d-inline p-0 mr-2 text-decoration-none"
+                        class="
+                          btn btn-link
+                          d-inline
+                          p-0
+                          mr-2
+                          text-decoration-none
+                        "
                         data-toggle="tooltip"
                         data-placement="top"
                         title="ver"

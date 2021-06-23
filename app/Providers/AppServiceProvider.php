@@ -4,6 +4,7 @@ namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
+use Illuminate\Support\Facades\Session;
 use Inertia\Inertia;
 
 class AppServiceProvider extends ServiceProvider
@@ -31,9 +32,15 @@ class AppServiceProvider extends ServiceProvider
             },
             'language' => function () {
                 return translations(
-                    resource_path('lang/'. app()->getLocale() .'.json')
+                    resource_path('lang/' . app()->getLocale() . '.json')
                 );
             },
+            'alerts' => function () {
+                return [
+                    'success' => Session::get('success'),
+                    'error' => Session::get('error'),
+                ];
+            }
         ]);
 
         Paginator::useBootstrap();

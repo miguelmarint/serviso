@@ -125,6 +125,8 @@ export default {
         height: 500,
         menubar: true,
         branding: false,
+        automatic_uploads: false,
+        images_upload_url: "#",
         plugins: [
           "advlist autolink lists link image charmap print preview anchor",
           "searchreplace visualblocks code fullscreen",
@@ -132,11 +134,7 @@ export default {
           "code table quickbars media",
         ],
         toolbar:
-          "fontsizeselect | bold italic underline strikethrough removeformat subscript superscript | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote undo redo | fontselect | media",
-        images_upload_handler: (blobInfo, success, failure) => {
-          console.log(URL.createObjectURL(blobInfo))
-          // console.log(blobInfo.blob())
-        },
+          "fontsizeselect | bold italic underline strikethrough removeformat subscript superscript | alignleft aligncenter alignright alignjustify | bullist numlist | outdent indent blockquote undo redo | fontselect",
       },
     };
   },
@@ -146,14 +144,22 @@ export default {
   },
   methods: {
     submit() {
-      console.log(this.form.content);
-      // this.form
-      //   .transform((data) => ({
-      //     ...data,
-      //   }))
-      //   .post(this.route("scoops.store"), {
-      //     onSuccess: () => {},
-      //   });
+      this.form.post(this.route("scoops.store"), {});
+    },
+    formatFiles() {
+      let urls = this.getAttrFromString(this.form.content, "img", "src");
+      urls.forEach((url) => {
+        console.log(url);
+      });
+    },
+    getAttrFromString(str, node, attr) {
+      var regex = new RegExp("<" + node + " .*?" + attr + '="(.*?)"', "gi"),
+        result,
+        res = [];
+      while ((result = regex.exec(str))) {
+        res.push(result[1]);
+      }
+      return res;
     },
   },
   computed: {
