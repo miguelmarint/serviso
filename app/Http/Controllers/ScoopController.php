@@ -24,6 +24,13 @@ class ScoopController extends Controller
         ]);
     }
 
+    public function show(Scoop $scoop)
+    {
+        return Inertia::render("Dashboard/Scoops/Show", [
+            "scoop" => $scoop
+        ]);
+    }
+
     public function create()
     {
         return Inertia::render("Dashboard/Scoops/Create");
@@ -33,11 +40,25 @@ class ScoopController extends Controller
     {
         $scoop = new Scoop();
         $scoop->fill($request->all());
-        if ($request->content) {
-            $scoop->content = $this->downloadFiles($request->content);
-        }
+        // if ($request->content) {
+        //     $scoop->content = $this->downloadFiles($request->content);
+        // }
         $scoop->save();
         return Redirect::route('scoops.index')->with('success', 'Noticia creada con éxito.');
+    }
+
+    public function edit(Scoop $scoop)
+    {
+        return Inertia::render("Dashboard/Scoops/Edit", [
+            "scoop" => $scoop
+        ]);
+    }
+
+    public function update(Request $request, Scoop $scoop)
+    {
+        $scoop->fill($request->all());
+        $scoop->save();
+        return Redirect::route('scoops.index')->with('success', 'Noticia actualizada con éxito.');
     }
 
     public function downloadFiles($content)

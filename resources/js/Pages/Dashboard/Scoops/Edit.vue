@@ -113,13 +113,14 @@
 import AppLayout from "@/Layouts/AppLayout";
 import Editor from "@tinymce/tinymce-vue";
 export default {
+  props: ["scoop"],
   data() {
     return {
       form: this.$inertia.form({
-        title: null,
-        author: null,
-        reference: null,
-        content: null,
+        title: this.scoop.title,
+        author: this.scoop.author,
+        reference: this.scoop.reference,
+        content: this.scoop.content,
       }),
       init: {
         height: 500,
@@ -144,8 +145,8 @@ export default {
   },
   methods: {
     submit() {
-      this.form.post(this.route("scoops.store"), {});
-    }
+      this.form.put(this.route("scoops.update", this.scoop), {});
+    },
   },
   computed: {
     errors() {
