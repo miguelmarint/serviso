@@ -79,4 +79,11 @@ class ScoopController extends Controller
         }
         return $content;
     }
+
+    public function destroy(Scoop $scoop)
+    {
+        $scoop->delete();
+
+        return Redirect::route('scoops.index')->with('success', 'Noticia eliminada con éxito.');
+    }
 }

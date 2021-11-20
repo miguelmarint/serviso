@@ -38,6 +38,7 @@
         "@fortawesome/fontawesome-free": "^5.15.3",
         "@tinymce/tinymce-vue": "^4.0.2",
         "aos": "^3.0.0-beta.6",
-        "datatables.net-dt": "^1.10.24"
+        "datatables.net-dt": "^1.10.24",
+        "vue-sweetalert2": "^5.0.2"
     }
 }

@@ -21,8 +21,10 @@ Route::get('/', [LandingController::class, 'index'])->name("landing");
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
-    Route::resource('scoops', ScoopController::class);
+    Route::resource('scoops', ScoopController::class)->except("show");
 });
+
+Route::get('/scoops/{scoop}', [ScoopController::class, 'show'])->name("scoops.show");
 
 Route::get('language/{language}', function ($language) {
     Session()->put('locale', $language);

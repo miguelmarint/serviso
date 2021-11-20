@@ -74,6 +74,23 @@
                           <i class="fas fa-eye" aria-hidden="true"></i>
                         </span>
                       </inertia-link>
+                      <a
+                        @click="showDeleteAlert(scoop)"
+                        class="
+                          btn btn-link
+                          d-inline
+                          p-0
+                          mr-2
+                          text-decoration-none
+                        "
+                        data-toggle="tooltip"
+                        data-placement="top"
+                        title="ver"
+                      >
+                        <span>
+                          <i class="fas fa-trash" aria-hidden="true"></i>
+                        </span>
+                      </a>
                     </td>
                   </tr>
                 </tbody>
@@ -102,6 +119,24 @@ export default {
   props: ["scoops"],
   components: {
     AppLayout,
+  },
+  methods: {
+    showDeleteAlert(scoop) {
+      let self = this;
+      this.$swal
+        .fire({
+          title: `¿Estas seguro que deseas borrar borrar la "noticia ${scoop.title}"?`,
+          showDenyButton: true,
+          confirmButtonColor: "#3085d6",
+          confirmButtonText: "Eliminar",
+          denyButtonText: `Cancelar`,
+        })
+        .then((result) => {
+          if (result.isConfirmed) {
+            self.$inertia.delete(this.route("scoops.destroy", scoop.id), {});
+          }
+        });
+    },
   },
   mounted() {
     $("#table").DataTable({

@@ -5,9 +5,11 @@ import { createApp, h } from 'vue';
 import { App as InertiaApp, plugin as InertiaPlugin } from '@inertiajs/inertia-vue3';
 import { InertiaProgress } from '@inertiajs/progress';
 import { asset } from '@codinglabs/laravel-asset';
+import VueSweetalert2 from 'vue-sweetalert2';
 import 'jquery/dist/jquery.min.js';
 import "datatables.net-dt/js/dataTables.dataTables";
 import "datatables.net-dt/css/jquery.dataTables.min.css";
+import 'sweetalert2/dist/sweetalert2.min.css';
 import $ from 'jquery';
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -23,7 +25,8 @@ const app = createApp({
         }),
 })
     .mixin({ methods: { route, asset: asset } })
-    .use(InertiaPlugin);
+    .use(InertiaPlugin)
+    .use(VueSweetalert2);
 app.mixin(require('./base'));
 app.mount('#app');
 
