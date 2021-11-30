@@ -4,7 +4,7 @@
     <Intro />
     <AboutUs />
     <Services />
-    <WhyUs />
+    <WhyUs :scoops="scoops" />
     <Portfolio />
     <Team />
     <OurClients />
@@ -27,6 +27,7 @@ import ContactUs from "./ContactUs";
 
 
 export default {
+  props: ["scoops"],
   components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio, Team, Footer, OurClients, ContactUs },
 };
 </script>

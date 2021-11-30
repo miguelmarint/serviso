@@ -18473,6 +18473,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ["scoops"],
   components: {
     Navbar: _Layouts_Navbar__WEBPACK_IMPORTED_MODULE_0__.default,
     Intro: _Intro__WEBPACK_IMPORTED_MODULE_2__.default,
@@ -18575,7 +18576,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  props: ["scoops"]
+});
 
 /***/ }),
 
@@ -22628,7 +22631,11 @@ var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data,
 
   var _component_Footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Portfolio), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Team), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurClients), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Navbar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_AboutUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Services), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_WhyUs, {
+    scoops: $props.scoops
+  }, null, 8
+  /* PROPS */
+  , ["scoops"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Portfolio), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Team), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurClients), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ContactUs), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer)]);
 });
 
 /***/ }),
@@ -23004,12 +23011,66 @@ var _withId = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.withScopeId)("dat
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-67168095");
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"why-us\" class=\"wow\" data-v-67168095><div class=\"container\" data-v-67168095><header class=\"section-header\" data-v-67168095><h3 data-v-67168095>Noticias</h3><p data-v-67168095> Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. </p></header><div class=\"row row-eq-height justify-content-center\" data-v-67168095><div class=\"col-lg-4 mb-4\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-user\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Corporis dolorem</h5><p class=\"card-text\" data-v-67168095> Deleniti optio et nisi dolorem debitis. Aliquam nobis est temporibus sunt ab inventore officiis aut voluptatibus. </p><a href=\"#\" class=\"readmore\" data-v-67168095>Read more </a></div></div></div></div><div class=\"col-lg-4 mb-4\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-user\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Voluptates dolores</h5><p class=\"card-text\" data-v-67168095> Voluptates nihil et quis omnis et eaque omnis sint aut. Ducimus dolorum aspernatur. </p><a href=\"#\" class=\"readmore\" data-v-67168095>Read more </a></div></div></div></div><div class=\"col-lg-4 mb-4\" data-v-67168095><div data-aos=\"zoom-in\" data-v-67168095><div class=\"card wow bounceInUp\" data-v-67168095><i class=\"fas fa-user\" data-v-67168095></i><div class=\"card-body\" data-v-67168095><h5 class=\"card-title\" data-v-67168095>Eum ut aspernatur</h5><p class=\"card-text\" data-v-67168095> Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis porro in non nemo ex. </p><a href=\"#\" class=\"readmore\" data-v-67168095>Read more </a></div></div></div></div></div></div></section>", 1);
+var _hoisted_1 = {
+  id: "why-us",
+  "class": "wow"
+};
+var _hoisted_2 = {
+  "class": "container"
+};
+
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("header", {
+  "class": "section-header"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h3", null, "Noticias"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", null, " Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus. ")], -1
+/* HOISTED */
+);
+
+var _hoisted_4 = {
+  "class": "row row-eq-height justify-content-center"
+};
+var _hoisted_5 = {
+  "data-aos": "zoom-in"
+};
+var _hoisted_6 = {
+  "class": "card wow bounceInUp"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("i", {
+  "class": "fas fa-newspaper"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_8 = {
+  "class": "card-body"
+};
+var _hoisted_9 = {
+  "class": "card-title"
+};
+var _hoisted_10 = {
+  "class": "card-text"
+};
 
 (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)();
 
 var render = /*#__PURE__*/_withId(function (_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [_hoisted_1]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($props.scoops, function (scoop) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", {
+      key: scoop.id,
+      "class": "col-lg-4 mb-4"
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("h5", _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(scoop.title), 1
+    /* TEXT */
+    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("p", _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(scoop.author), 1
+    /* TEXT */
+    ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("a", {
+      href: _ctx.route('scoops.show', scoop.id),
+      "class": "readmore"
+    }, "Read more", 8
+    /* PROPS */
+    , ["href"])])])])]);
+  }), 128
+  /* KEYED_FRAGMENT */
+  )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"col-lg-4 mb-4\">\r\n            <div data-aos=\"zoom-in\">\r\n              <div class=\"card wow bounceInUp\">\r\n                <i class=\"fas fa-user\"></i>\r\n                <div class=\"card-body\">\r\n                  <h5 class=\"card-title\">Voluptates dolores</h5>\r\n                  <p class=\"card-text\">\r\n                    Voluptates nihil et quis omnis et eaque omnis sint aut.\r\n                    Ducimus dolorum aspernatur.\r\n                  </p>\r\n                  <a href=\"#\" class=\"readmore\">Read more </a>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div>\r\n\r\n          <div class=\"col-lg-4 mb-4\">\r\n            <div data-aos=\"zoom-in\">\r\n              <div class=\"card wow bounceInUp\">\r\n                <i class=\"fas fa-user\"></i>\r\n                <div class=\"card-body\">\r\n                  <h5 class=\"card-title\">Eum ut aspernatur</h5>\r\n                  <p class=\"card-text\">\r\n                    Autem quod nesciunt eos ea aut amet laboriosam ab. Eos quis\r\n                    porro in non nemo ex.\r\n                  </p>\r\n                  <a href=\"#\" class=\"readmore\">Read more </a>\r\n                </div>\r\n              </div>\r\n            </div>\r\n          </div> ")])])])]);
 });
 
 /***/ }),

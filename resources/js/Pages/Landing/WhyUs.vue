@@ -11,23 +11,22 @@
         </header>
 
         <div class="row row-eq-height justify-content-center">
-          <div class="col-lg-4 mb-4">
+          <div v-for="scoop in scoops" :key="scoop.id" class="col-lg-4 mb-4">
             <div data-aos="zoom-in">
               <div class="card wow bounceInUp">
-                <i class="fas fa-user"></i>
+                <i class="fas fa-newspaper"></i>
                 <div class="card-body">
-                  <h5 class="card-title">Corporis dolorem</h5>
+                  <h5 class="card-title">{{ scoop.title }}</h5>
                   <p class="card-text">
-                    Deleniti optio et nisi dolorem debitis. Aliquam nobis est
-                    temporibus sunt ab inventore officiis aut voluptatibus.
+                    {{ scoop.author }}
                   </p>
-                  <a href="#" class="readmore">Read more </a>
+                  <a :href="route('scoops.show', scoop.id)" class="readmore">Read more</a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 mb-4">
+          <!-- <div class="col-lg-4 mb-4">
             <div data-aos="zoom-in">
               <div class="card wow bounceInUp">
                 <i class="fas fa-user"></i>
@@ -57,14 +56,16 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  props: ["scoops"],
+};
 </script>
 <style  scoped>
 #why-us {
