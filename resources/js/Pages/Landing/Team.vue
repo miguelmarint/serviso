@@ -3,10 +3,9 @@
     <section id="team">
       <div class="container">
         <div class="section-header">
-          <h3>Team</h3>
+          <h3>Equipo de trabajo</h3>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque
+           Trabajamos para ustedes.
           </p>
         </div>
 
@@ -15,17 +14,11 @@
             class="col-lg-3 col-md-6 wow fadeInUp"
           >
             <div class="member">
-              <img :src="asset('images/team-1.jpg')" class="img-fluid" alt="" />
+              <img :src="asset('images/berthaCEO.jpg')" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h4 class="titleName">BERTHA FRANCO BEDOYA</h4>
+                  <span>Médico especialista en Seguridad y Salud en el trabajo.</span>
                 </div>
               </div>
             </div>
@@ -36,17 +29,11 @@
             data-wow-delay="0.1s"
           >
             <div class="member">
-              <img :src="asset('images/team-2.jpg')" class="img-fluid" alt="" />
+              <img :src="asset('images/paulaadmin.jpg')" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h4  class="titleName">PAULA SÁNCHEZ GIRALDO</h4>
+                  <span>Directora administrativa</span>
                 </div>
               </div>
             </div>
@@ -57,17 +44,11 @@
             data-wow-delay="0.2s"
           >
             <div class="member">
-              <img :src="asset('images/team-3.jpg')" class="img-fluid" alt="" />
+              <img :src="asset('images/auxiliaradmin.jpg')" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h4 class="titleName">ANA MARÍA ZAPATA CASTAÑO</h4>
+                  <span>Auxiliar administrativa</span>
                 </div>
               </div>
             </div>
@@ -78,17 +59,70 @@
             data-wow-delay="0.3s"
           >
             <div class="member">
-              <img :src="asset('images/team-4.jpg')" class="img-fluid" alt="" />
+              <img :src="asset('images/catalinadoc.jpg')" class="img-fluid" alt="" />
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
+                  <h4 class="titleName">CATALINA SALAZAR ARROYAVE</h4>
+                  <span>Médico especialista en Seguridad y Salud en el trabajo.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div
+            class="col-lg-3 col-md-6 wow fadeInUp"
+            data-wow-delay="0.1s"
+          >
+            <div class="member">
+              <img :src="asset('images/fonoaudiologa.jpg')" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4 class="titleName">FABIOLA GONZALEZ ROJAS</h4>
+                  <span>Fonoaudióloga</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-lg-3 col-md-6 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="member">
+              <img :src="asset('images/asistente.jpg')" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4 class="titleName">GLORIA ARANGO RIVERA</h4>
+                  <span>Auxiliar administrativa y asistencial</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="member">
+              <img :src="asset('images/erica.jpg')" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4 class="titleName">ERICA CERÓN PATIÑO</h4>
+                  <span>Auxiliar administrativa y asistencial</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-3 col-md-6 wow fadeInUp"
+            data-wow-delay="0.2s"
+          >
+            <div class="member">
+              <img :src="asset('images/carolina.jpg')" class="img-fluid" alt="" />
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4 class="titleName">CAROLINA ARÉVALO FERNÁNDEZ</h4>
+                  <span>Psicóloga especialista en Seguridad y Salud en el trabajo y Recursos humanos</span>
                 </div>
               </div>
             </div>
@@ -115,20 +149,19 @@ export default {
     margin-right: auto;
     margin-left: auto;
 }
-.section-header h3 {
-    font-size: 36px;
-    color: #283d50;
-    text-align: center;
-    font-weight: 500;
-    position: relative;
+
+#team .section-header h3 {
+  font-size: 40px;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  position: relative;
+  font-family: "Arial Narrow";
 }
-.section-header p {
-    text-align: center;
-    margin: auto;
-    font-size: 15px;
-    padding-bottom: 60px;
-    color: #556877;
-    width: 50%;
+
+.titleName {
+    padding-top: 20px;
+    font-family: "Arial Narrow";
 }
 .row {
     display: flex;
@@ -140,12 +173,24 @@ export default {
     text-align: center;
     margin-bottom: 20px;
     position: relative;
-    border-radius: 50%;
+    border-radius: 10%;
     overflow: hidden;
 }
 .img-fluid {
     max-width: 100%;
     height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#team .section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 30px;
+  padding-bottom: 60px;
+  color: #242323;
+  font-family: "Arial Narrow";
+  width: 50%;
 }
 
 </style>
+

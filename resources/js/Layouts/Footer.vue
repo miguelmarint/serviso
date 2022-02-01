@@ -5,23 +5,20 @@
         <div class="container">
           <div class="row">
             <div class="col-sm footer-info">
-              <h3>Serviso</h3>
+              <h4>Serviso</h4>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
-                fermentum leo. Amet volutpat consequat mauris nunc congue.
+              Servicios y asesorías integrales en salud ocupacional S.A.S
               </p>
             </div>
 
             <div class="col-sm  footer-links">
               <h4>Useful Links</h4>
               <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About us</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Terms of service</a></li>
-                <li><a href="">Privacy policy</a></li>
+                <li><a href="#intro">Home</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#team">Team</a></li>
               </ul>
             </div>
 
@@ -36,17 +33,16 @@
               </p>
 
               <div class="social-links">
-                <a href="" class="twitter"><i class="fab fa-twitter"></i></a>
-                <a href="" class="facebook"><i class="fab fa-facebook-f"></i></a>
-                <a href="" class="instagram"
+                <a href="https://www.facebook.com/servisosasips" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/servisosas" target="_blank" class="instagram"
                   ><i class="fab fa-instagram"></i
                 ></a>
-                <a href="" class="google-plus"
-                  ><i class="fab fa-google-plus-g"></i
-                ></a>
-                <a href="" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
               </div>
             </div>
+            <a href="https://api.whatsapp.com/send?phone=573162200078" class="whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="msgstyle">¿En qué te podemos ayudar?</span>
+            </a>
 
           </div>
         </div>
@@ -56,7 +52,9 @@
   </div>
 </template>
 <script>
-export default {};
+import Button from '../Jetstream/Button.vue';
+export default {
+  components: { Button },};
 </script>
 <style  scoped>
 #footer {
@@ -94,6 +92,7 @@ export default {};
     font-weight: 400;
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-family: "Arial Narrow";
 }
 #footer .footer-top .footer-info p {
     font-size: 13px;
@@ -101,9 +100,10 @@ export default {};
     margin-bottom: 0;
     font-family: 'Arial Narrow';
     color: #ecf5ff;
+    font-size: 20px;
 }
 #footer .footer-top h4 {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
@@ -126,6 +126,8 @@ export default {};
 }
 #footer .footer-top .footer-contact p {
     line-height: 26px;
+    font-size: 20px;
+    font-family: "Arial Narrow";
 }
 #footer .footer-top .social-links a {
     font-size: 18px;
@@ -150,6 +152,29 @@ export default {};
 }
 b, strong {
     font-weight: bolder;
+}
+.social-links .whatsapp{
+    position: fixed;
+}
+
+.whatsapp{
+   position:fixed;
+	width:320px;
+	height:60px;
+	bottom:50px;
+	right:50px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:10px;
+	text-align:center;
+  font-size:30px;
+  z-index:100;
+  padding: 8px 0;
+}
+.msgstyle{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 </style>
 

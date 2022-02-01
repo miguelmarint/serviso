@@ -9,29 +9,7 @@
 
         <div data-aos="fade-up">
           <div class="row">
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div
-                        class="text-xs font-weight-bold text-primary text-uppercase mb-1"
-                      >
-                        Dinero recaudado
-                      </div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">
-                        COP
-                      </div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-donate fa-2x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+            <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
               <div class="box">
                 <div class="icon">
                   <i class="fas fa-prescription-bottle-alt"></i>
@@ -62,7 +40,7 @@
                   juntas.
                 </p>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
 
@@ -90,9 +68,7 @@
                 </div>
                 <h4 class="title"><a href="">Covid 19</a></h4>
                 <p class="description">
-                  Diseño de sistema de vigilancia epidemiológica, protocolos,
-                  seguimiento de casos diario de casos sospechosos, cerco
-                  epidemiológico. Investigación del origen de enfermedad.
+                Diseño de sistema de vigilancia epidemiológica, elaboración de protocolos de bioseguridad, seguimiento de casos sospechosos, cerco epidemiológico.
                 </p>
               </div>
             </div>
@@ -169,6 +145,7 @@
             </div>
           </div>
         </div>
+
         <div class="container">
           <header class="section-header">
             <h3></h3>
@@ -182,43 +159,10 @@
                     <i class="fas fa-copy"></i>
                   </div>
                   <h4 class="title">
-                    <a href="">Diseño SGSST:</a>
+                    <a href="">Diseño y elaboración del sistema de gestión de seguridad y salud en el trabajo:</a>
                   </h4>
                   <p class="description">
-                    Elaboración en diseño de sistema de gestión de seguridad y
-                    salud en el trabajo.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-5 wow bounceInUp">
-                <div class="box">
-                  <div class="icon">
-                    <i class="fas fa-shield-alt"></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Autoevaluación del sistema:</a>
-                  </h4>
-                  <p class="description">
-                    Elaboración de protocolos, estado de seguridad,
-                    socialización, capacitación.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div data-aos="fade-up">
-            <div class="row">
-              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
-                <div class="box">
-                  <div class="icon">
-                    <i class="fas fa-hand-holding-medical"></i>
-                  </div>
-                  <h4 class="title">
-                    <a href="">Auditoria del sistema de gestión de SST: </a>
-                  </h4>
-                  <p class="description">
-                    Elaboración documento, implementación, capacitación y
-                    entrenamiento brigada.
+                   Acompañamiento en la verificación y cumplimiento a los requisitos legales, procedimientos, planes de acción del SG- SST
                   </p>
                 </div>
               </div>
@@ -233,6 +177,130 @@
                   <p class="description">
                     En todos los aspectos del sistema. Gestión de la salud,
                     gestión del riesgo, sistemas como tal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <header class="section-header">
+            <h3></h3>
+            <p>RIESGO PSICOSOCIAL</p>
+          </header>
+          <div data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fas fa-edit"></i>
+                  </div>
+                  <p class="description">
+                   Aplicación de la Batería de Riesgo Psicosocial, según Resolución 2646 de 2008.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fas fa-chair"></i>
+                  </div>
+                  <p class="description">
+                    Análisis de puesto de trabajo para determinación de origen de enfermedad o ajustes razonables para reintegro laboral, o incorporación del colaborador con discapacidad en el puesto de trabajo.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                   <i class="fas fa-brain"></i>
+                  </div>
+                  <p class="description">
+                    Valoraciones psicológicas.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fas fa-comments"></i>
+                  </div>
+                  <p class="description">
+                    Visitas domiciliarias.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+           <div data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                   <i class="fas fa-users-cog"></i>
+                  </div>
+                  <p class="description">
+                    Capacitaciones y talleres sobre trabajo en equipo, comunicación asertiva,
+manejo de emociones entre otras.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <header class="section-header">
+            <h3></h3>
+            <p>GESTIÓN DEL TALENTO HUMANO</p>
+          </header>
+          <div data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fas fa-check-square"></i>
+                  </div>
+                  <p class="description">
+                   Aplicación de pruebas psicotécnicas para procesos de selección.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                   <i class="fas fa-hand-holding-medical"></i>
+                  </div>
+                  <p class="description">
+                    Sistema de Vigilancia Epidemiológica en Riesgo Psicosocial.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-aos="fade-up">
+            <div class="row">
+              <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                   <i class="fas fa-tasks"></i>
+                  </div>
+                  <p class="description">
+                    Entrevista o evaluación por competencias para selección de personal.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5 wow bounceInUp">
+                <div class="box">
+                  <div class="icon">
+                    <i class="fas fa-file-contract"></i>
+                  </div>
+                  <p class="description">
+                    Validación de referencias y verificación de hojas de vida.
                   </p>
                 </div>
               </div>
@@ -266,7 +334,7 @@ export default {};
   margin: auto;
   font-size: 20px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #000000;
   width: 50%;
   font-family: "Arial Narrow";
 }

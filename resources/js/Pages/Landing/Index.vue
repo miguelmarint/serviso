@@ -4,8 +4,7 @@
     <Intro />
     <AboutUs />
     <Services />
-    <WhyUs :scoops="scoops" />
-    <Portfolio />
+    <News :scoops="scoops" />
     <Team />
     <OurClients />
     <ContactUs />
@@ -19,7 +18,7 @@ import Footer from "@/Layouts/Footer";
 import Intro from "./Intro";
 import AboutUs from "./AboutUs";
 import Services from "./Services";
-import WhyUs from "./WhyUs";
+import News from "./News";
 import Portfolio from "./Portfolio";
 import Team from "./Team";
 import OurClients from "./OurClients";
@@ -28,7 +27,7 @@ import ContactUs from "./ContactUs";
 
 export default {
   props: ["scoops"],
-  components: { Navbar, Intro, AboutUs, Services, WhyUs, Portfolio, Team, Footer, OurClients, ContactUs },
+  components: { Navbar, Intro, AboutUs, Services, News, Portfolio, Team, Footer, OurClients, ContactUs },
 };
 </script>
 

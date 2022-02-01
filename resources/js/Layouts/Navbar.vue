@@ -13,6 +13,8 @@
         />
       </inertia-link>
 
+    <span style="padding-top: 50px; font-weight: 800; font-size: 25px; padding-right:15px;">IPS</span>
+
       <button
         class="navbar-toggler"
         type="button"
@@ -57,10 +59,10 @@
           <li class="nav-item">
             <button
               type="button"
-              @click="scrollMeTo('why-us')"
+              @click="scrollMeTo('news')"
               class="btn shadow-none nav-link"
             >
-              {{ __("nav.why") }}
+              {{ __("nav.news") }}
             </button>
           </li>
           <!-- <li class="nav-item">
@@ -70,7 +72,7 @@
               class="btn shadow-none nav-link"
             >
               {{ __("nav.portfolio") }}
-            </button> 
+            </button>
           </li> -->
           <li class="nav-item">
             <button
@@ -189,9 +191,12 @@ export default {
 #brand {
   padding: 0;
   margin: 3px 0;
-  max-height: 60px;
+  max-height: 100px;
 }
 
+.img-fluid{
+    width: 100%;
+}
 .navbar-nav .nav-item a,
 .navbar-nav .nav-item button {
   display: block;
@@ -199,8 +204,8 @@ export default {
   color: #004289;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 18px;
+  font-size: 20px;
   font-family: 'Arial Narrow';
-  font-weight: 700;
+  font-weight: 720;
 }
 </style>

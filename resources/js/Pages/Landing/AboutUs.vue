@@ -12,46 +12,43 @@
           <div class="row about-container">
             <div class="col-lg-6 content order-lg-1 order-2">
               <p>
-                Ubicada en la ciudad de Manizales, cubriendo eje cafetero con 23
-                años en el mercado, nuestros clientes empresas privadas, sector
-                publico, ARL y EPS, prestamos todos los servicios relacionados
-                con seguridad y salud en el trabajo excepto higiene industrial.
+                Somos una IPS especializada en las áreas de medicina del trabajo, medicina laboral y de seguridad
+                y salud en el trabajo que brinda sus servicios en todo el territorio nacional, con mas de 20 años de experiencia
+                y con amplio recorrido en el apoyo de servicios profesionales para el sector público
+                y privado. Dicha cualificación nos convierte en un aliado estratégico para la gestión del talento
+                 humano de todos nuestros clientes.
+                <br>
+                Estamos ubicados en la ciudad de Manizales desde donde ofrecemos diversos servicios
+                y alternativas tendientes a coadyuvar la gestión del talento humano en las empresas
+                y las condiciones de salud de las personas en su condición de trabajadores y empleados en todas las áreas
+                de Medicina del trabajo, Medicina Laboral y de seguridad y salud en el trabajo donde durante
+                por más de dos décadas las empresas y los trabajadores de todo el eje cafetero han confiado en nosotros
+                 y con los cuales hemos aportado nuestras capacidades y experiencia para su crecimiento.
               </p>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="fas fa-user-md"></i></div>
-                <h4 class="title"><a href="">Nuestra misión:</a></h4>
+                <h4 class="title"><a>Nuestra misión:</a></h4>
                 <p class="description">
-                  Serviso SAS IPS es una empresa privada especializada en la
-                  prestación de servicios de salud ocupacional que diseña,
-                  aplica y evalúa programas para el cuidado de los trabajadores
-                  en su ambiente laboral , con el apoyo de profesionales
-                  comprometidos, y una red de instituciones aliadas que
-                  garantizan seguridad y satisfacción al empleador, empleado y
-                  sociedad.
+                  Ofrecer y apoyar mediante una amplia gama de servicios profesionales en medicina del trabajo, medicina
+                  laboral y de seguridad y salud en el trabajo a todas las empresas del orden nacional
+                  con oportunidad, cordialidad y excelente calidad en el servicio, lo cual nos
+                  convierte en un aliado estratégico y esencial para nuestros clientes.
                 </p>
               </div>
 
               <div class="icon-box wow">
                 <div class="icon"><i class="fas fa-notes-medical"></i></div>
-                <h4 class="title"><a href="">Nuestra visión:</a></h4>
+                <h4 class="title"><a>Nuestra visión:</a></h4>
                 <p class="description">
-                  En el año 2022 continuaremos siendo una de las propuestas más
-                  completas y confiables para la implementación del sistema de
-                  gestión en seguridad y salud en el trabajo de empresas
-                  públicas y privadas del eje cafetero desde todos sus aspectos
-                  de salud y seguridad, y nos consolidaremos como la primera
-                  alternativa para servicios de medicina laboral para empresas y
-                  entidades de seguridad social; logrando satisfacer a nuestros
-                  usuarios con los mayores estándares de calidad, garantizando
-                  rentabilidad y sostenibilidad social y financiera.
+                 Ser la líder y más reconocida empresa del eje cafetero que presta servicios en medicina del trabajo, medicina laboral y de seguridad y salud en el trabajo con altos estándares de calidad e integridad en cada una de las actuaciones que desarrollemos, con pasión y responsabilidad para entregar lo mejor de si a nuestros clientes.
                 </p>
               </div>
             </div>
 
             <div class="col-lg-6 background order-lg-2 order-1 wow">
               <img
-                :src="asset('images/about-img.svg')"
+                :src="asset('images/berthaCEO.jpg')"
                 class="img-fluid"
                 alt=""
               />
@@ -61,63 +58,35 @@
 
 
         <div data-aos="fade-up">
-          <div class="row about-extra">
+          <div class="row about-container">
             <div class="col-lg-6 wow">
               <img
-                :src="asset('images/about-extra-1.svg')"
+                :src="asset('images/doctors.jpg')"
                 class="img-fluid"
                 alt=""
               />
             </div>
             <div class="col-lg-6 wow pt-5 pt-lg-0">
+               <div class="icon-box wow">
+                <div class="icon"><i class="fas fa-star-of-life"></i></div>
+                <h4 class="title"><a>Propuesta de valor:</a></h4>
+                <p class="description">
+                 Ofrecer servicios de medicina del trabajo, medicina laboral y de seguridad y salud en el trabajo con
+                 altos estándares de calidad, con los mejores profesionales del mercado en la
+                 oportunidad que nuestros clientes requieran.
+                </p>
+              </div>
               <div class="icon-box wow">
-                <div class="icon"><i class="fas fa-user-friendsr"></i></div>
-                <h4 class="title"><a href="">Nuestros valores:</a></h4>
+                <div class="icon"><i class="fas fa-heart"></i></div>
+                <h4 class="title"><a>Nuestros valores:</a></h4>
                 <ul  class="description">
+                  <li>Pasión.</li>
+                  <li>Responsabilidad.</li>
+                  <li>Integridad.</li>
                   <li>Respeto.</li>
-                  <li>Calidad.</li>
-                  <li>Innovación.</li>
-                  <li>Oportunidad.</li>
-                  <li>Compromiso.</li>
-                  <li>Imparcialidad.</li>
+                  <li>Adaptación al cambio.</li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-
-
-        <div data-aos="fade-up">
-          <div class="row about-extra">
-            <div class="col-lg-6 wow order-1 order-lg-2">
-              <img
-                :src="asset('images/about-extra-2.svg')"
-                class="img-fluid"
-                alt=""
-              />
-            </div>
-
-            <div class="col-lg-6 wow pt-4 pt-lg-0 order-2 order-lg-1">
-              <h4>
-                Neque saepe temporibus repellat ea ipsum et. Id vel et quia
-                tempora facere reprehenderit.
-              </h4>
-              <p>
-                Delectus alias ut incidunt delectus nam placeat in consequatur.
-                Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio.
-                Cumque fugit earum est quam officiis numquam. Ducimus corporis
-                autem at blanditiis beatae incidunt sunt.
-              </p>
-              <p>
-                Voluptas saepe natus quidem blanditiis. Non sunt impedit
-                voluptas mollitia beatae. Qui esse molestias. Laudantium libero
-                nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-              </p>
-              <p>
-                Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore
-                sint quia modi. Numquam est aut fuga mollitia exercitationem nam
-                accusantium provident quia.
-              </p>
             </div>
           </div>
         </div>
@@ -147,7 +116,7 @@ export default {};
   margin: auto;
   font-size: 30px;
   padding-bottom: 60px;
-  color: #556877;
+  color: #242323;
   font-family: "Arial Narrow";
   width: 50%;
 }
@@ -215,6 +184,8 @@ export default {};
 #about .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 #about .img {
   vertical-align: middle;

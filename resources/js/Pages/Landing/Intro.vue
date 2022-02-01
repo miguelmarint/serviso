@@ -3,16 +3,13 @@
     <section id="intro" class="clearfix">
       <div class="container">
         <div class="intro-img">
-          <img :src="asset('images/intro-img.svg')" alt="" class="img-fluid" />
+          <img :src="asset('images/teamcomplete.jpg')" alt="" class="img-fluid" />
         </div>
         <div class="intro-info">
           <h2>
-            Servicios y Asesorías<br /><span>Integrales en Salud</span
-            ><br />Ocupacional S.A.S
+            Servicios Integrales de Salud y<br /><span>Seguridad para el Trabajador</span
+            ><br />y la Empresa S.A.S
           </h2>
-          <div>
-            <button type="button" class="btn btn-primary mr-4">Noticias</button>
-          </div>
         </div>
       </div>
     </section>
@@ -32,6 +29,12 @@ export default {};
   padding: 200px 0 120px 0;
 }
 
+.img-fluid {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 100%;
+}
+
 #intro .intro-img {
   width: 50%;
   float: right;
@@ -48,6 +51,7 @@ export default {};
   font-size: 48px;
   font-weight: 700;
   font-family: "Arial Narrow";
+  padding-top: 15%;
 }
 #intro .intro-info button {
   font-family: "Arial Narrow";
